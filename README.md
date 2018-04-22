@@ -4,7 +4,7 @@
   
    This project RadioDSP define a experimental open platform to build
    Real Time filtering and audio digital signal elaboration from
-   a source audio signal in output form radio transceiver or receiver.
+   a source audio signal in output from radio transceiver or receiver.
    The RadioDSP firmware define some FIR filter and routines to perform
    real time Noise Reduction based on various algorithm.
    The target hardware platform is Stm32f103 - Arm Cortex-M3 based processor.
