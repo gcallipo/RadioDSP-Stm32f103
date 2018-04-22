@@ -24,9 +24,10 @@
      Info to noise reduction algorithms: info: https://en.wikipedia.org/wiki/Moving_average
      Calculator used for FIR filters: https://www.arc.id.au/FilterDesign.html
   
-   Additional infos could be found in file How_To_Make.doc, this is a work in progress file
-   where are describing a simple external components board needed to build the DSP filter.
-   The pre-compiled firmware are committed in folder pre-compiled.
+  Additional infos could be found in file **How_To_Make.doc**, this is a work in progress file
+  where are describing a simple external components board needed to build the DSP filter.
+  The pre-compiled firmware are committed in folder pre-compiled.
+  You can find some videos with RadioDSP running, doing google search: **ik8yfw dsp** 
    
    The RadioDSP use some parts of the ARM Cortex Microcontroller Software
    Interface Standard (CMSIS).
