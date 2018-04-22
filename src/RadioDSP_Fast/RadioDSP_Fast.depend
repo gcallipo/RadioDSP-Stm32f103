@@ -1,0 +1,330 @@
+# depslib dependency file v1.0
+1520550302 source:c:\work\radiodsp_fast\spl\src\misc.c
+	"misc.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\misc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1520550302 c:\work\radiodsp_fast\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1520550302 c:\work\radiodsp_fast\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1520550302 c:\work\radiodsp_fast\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1520550302 c:\work\radiodsp_fast\inc\system_stm32f10x.h
+
+1520550302 c:\work\radiodsp_fast\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1520550302 c:\work\radiodsp_fast\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1520550302 source:c:\work\radiodsp_fast\spl\src\stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1524259477 source:c:\work\radiodsp_fast\src\filter_cmsis.c
+	"filter_cmsis.h"
+	"arm_math.h"
+
+1524261804 c:\work\radiodsp_fast\inc\filter_cmsis.h
+	"arm_math.h"
+	"stm32f10x.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\arm_math.h
+	"core_cm7.h"
+	"core_cm4.h"
+	"core_cm3.h"
+	"core_cm0.h"
+	"core_cm0plus.h"
+	"string.h"
+	"math.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cm7.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+	"core_cmSimd.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cminstr.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\cmsis_armcc.h
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\cmsis_armcc_v6.h
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\cmsis_gcc.h
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cmfunc.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cmsimd.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cm4.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+	"core_cmSimd.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cm3.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cm0.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1446544256 c:\work\cmsis-4.5.0\cmsis-4.5.0\cmsis\include\core_cm0plus.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1524265848 source:c:\work\radiodsp_fast\src\filter_cmsis_cw_nar.c
+	"filter_cmsis_cw_nar.h"
+	"arm_math.h"
+
+1524266000 c:\work\radiodsp_fast\inc\filter_cmsis_cw_nar.h
+	"arm_math.h"
+	"stm32f10x.h"
+
+1524263503 source:c:\work\radiodsp_fast\src\filter_noise_reduction.c
+	"filter_noise_reduction.h"
+
+1524263256 c:\work\radiodsp_fast\inc\filter_noise_reduction.h
+	"stm32f10x.h"
+
+1524259449 source:c:\work\radiodsp_fast\src\io_routines.c
+	"io_routines.h"
+
+1524261230 c:\work\radiodsp_fast\inc\io_routines.h
+	"stm32f10x.h"
+	"arm_math.h"
+
+1520550302 source:c:\work\radiodsp_fast\src\startup_stm32f10x_md.s
+
+1520550302 source:c:\work\radiodsp_fast\src\system_stm32f10x.c
+	"stm32f10x.h"
+
+1524263417 source:c:\work\radiodsp_fast\src\main.c
+	"stm32f10x.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_adc.h"
+	"stm32f10x_tim.h"
+	"arm_math.h"
+	"io_routines.h"
+	"filter_cmsis.h"
+	"filter_cmsis2.h"
+	"filter_cmsis_cw_nar.h"
+	"filter_cmsis_cw_nar2.h"
+	"filter_noise_reduction.h"
+
+1524265485 source:c:\work\radiodsp_fast\src\filter_cmsis_cw_nar2.c
+	"filter_cmsis_cw_nar2.h"
+	"arm_math.h"
+
+1524261756 c:\work\radiodsp_fast\inc\filter_cmsis_cw_nar2.h
+	"arm_math.h"
+	"stm32f10x.h"
+
+1524265797 c:\work\radiodsp_fast\inc\filter_cmsis2.h
+	"arm_math.h"
+	"stm32f10x.h"
+
+1524265797 source:c:\work\radiodsp_fast\src\filter_cmsis2.c
+	"filter_cmsis2.h"
+	"arm_math.h"
+
