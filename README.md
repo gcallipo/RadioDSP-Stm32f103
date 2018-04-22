@@ -1,6 +1,6 @@
 # RadioDSP-Stm32f103
 
-                          THE RADIO DSP - PROJECT
+                          THE RADIO DSP - PROJECT - Giuseppe Callipo - IK8YFW
   
    This project RadioDSP define a experimental open platform to build
    Real Time filtering and audio digital signal elaboration from
@@ -37,3 +37,5 @@
   
      The RadioDSP openSource software is released under the license:
                 Common Creative - Attribution 3.0
+                
+   Vy 73 de Giuseppe Callipo - IK8YFW             
