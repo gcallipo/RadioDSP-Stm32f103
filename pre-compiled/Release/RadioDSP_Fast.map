@@ -1308,7 +1308,7 @@ LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x00000000                __HEAP_SIZE = 0x0
                 0x00000100                __STACK_SIZE = 0x100
 
-.text           0x08000000     0x27d4
+.text           0x08000000     0x27ac
  *(.isr_vector)
  .isr_vector    0x08000000       0xec obj\release\src\startup_stm32f10x_md.o
                 0x08000000                __isr_vector
@@ -1597,50 +1597,50 @@ LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x0800260c       0x24 obj\release\src\filter_cmsis2.o
                 0x0800260c                firCoeffs32_2
  .rodata.firCoeffs32_cw_nar
-                0x08002630       0xf4 obj\release\src\filter_cmsis_cw_nar.o
+                0x08002630       0xcc obj\release\src\filter_cmsis_cw_nar.o
                 0x08002630                firCoeffs32_cw_nar
  .rodata.firCoeffs32_cw_nar2
-                0x08002724       0xa4 obj\release\src\filter_cmsis_cw_nar2.o
-                0x08002724                firCoeffs32_cw_nar2
+                0x080026fc       0xa4 obj\release\src\filter_cmsis_cw_nar2.o
+                0x080026fc                firCoeffs32_cw_nar2
  .rodata.str1.1
-                0x080027c8        0x2 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_n.a(lib_a-impure.o)
- *fill*         0x080027ca        0x2 
+                0x080027a0        0x2 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_n.a(lib_a-impure.o)
+ *fill*         0x080027a2        0x2 
  .rodata._global_impure_ptr
-                0x080027cc        0x4 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_n.a(lib_a-impure.o)
-                0x080027cc                _global_impure_ptr
+                0x080027a4        0x4 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_n.a(lib_a-impure.o)
+                0x080027a4                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x080027d0        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .eh_frame      0x080027d0        0x4 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .eh_frame      0x080027a8        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .eh_frame      0x080027a8        0x4 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
 
-.glue_7         0x080027d4        0x0
- .glue_7        0x080027d4        0x0 linker stubs
+.glue_7         0x080027ac        0x0
+ .glue_7        0x080027ac        0x0 linker stubs
 
-.glue_7t        0x080027d4        0x0
- .glue_7t       0x080027d4        0x0 linker stubs
+.glue_7t        0x080027ac        0x0
+ .glue_7t       0x080027ac        0x0 linker stubs
 
-.vfp11_veneer   0x080027d4        0x0
- .vfp11_veneer  0x080027d4        0x0 linker stubs
+.vfp11_veneer   0x080027ac        0x0
+ .vfp11_veneer  0x080027ac        0x0 linker stubs
 
-.v4_bx          0x080027d4        0x0
- .v4_bx         0x080027d4        0x0 linker stubs
+.v4_bx          0x080027ac        0x0
+ .v4_bx         0x080027ac        0x0 linker stubs
 
-.iplt           0x080027d4        0x0
- .iplt          0x080027d4        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.iplt           0x080027ac        0x0
+ .iplt          0x080027ac        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080027d4                __exidx_start = .
+                0x080027ac                __exidx_start = .
 
-.ARM.exidx      0x080027d4        0x8
+.ARM.exidx      0x080027ac        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x080027d4        0x8 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-                0x080027dc                __exidx_end = .
-                0x080027dc                __etext = .
+ .ARM.exidx     0x080027ac        0x8 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x080027b4                __exidx_end = .
+                0x080027b4                __etext = .
 
-.rel.dyn        0x080027dc        0x0
- .rel.iplt      0x080027dc        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.rel.dyn        0x080027b4        0x0
+ .rel.iplt      0x080027b4        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.data           0x20000000       0x7c load address 0x080027dc
+.data           0x20000000       0x7c load address 0x080027b4
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1671,13 +1671,13 @@ LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x2000007c                . = ALIGN (0x4)
                 0x2000007c                __data_end__ = .
 
-.jcr            0x2000007c        0x0 load address 0x08002858
+.jcr            0x2000007c        0x0 load address 0x08002830
  .jcr           0x2000007c        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.igot.plt       0x2000007c        0x0 load address 0x08002858
+.igot.plt       0x2000007c        0x0 load address 0x08002830
  .igot.plt      0x2000007c        0x0 c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.bss            0x2000007c      0x2b4 load address 0x08002858
+.bss            0x2000007c      0x28c load address 0x08002830
                 0x2000007c                __bss_start__ = .
  *(.bss*)
  .bss           0x2000007c       0x1c c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
@@ -1686,66 +1686,66 @@ LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-
  .bss.firStateF32_2
                 0x200000c4       0x24 obj\release\src\filter_cmsis2.o
  .bss.firStateF32_cw_nar
-                0x200000e8       0xf4 obj\release\src\filter_cmsis_cw_nar.o
+                0x200000e8       0xcc obj\release\src\filter_cmsis_cw_nar.o
  .bss.firStateF32_cw_nar2
-                0x200001dc       0xa4 obj\release\src\filter_cmsis_cw_nar2.o
- .bss.buffer    0x20000280       0x60 obj\release\src\filter_noise_reduction.o
+                0x200001b4       0xa4 obj\release\src\filter_cmsis_cw_nar2.o
+ .bss.buffer    0x20000258       0x60 obj\release\src\filter_noise_reduction.o
  .bss.outwork_fn
-                0x200002e0        0x4 obj\release\src\filter_noise_reduction.o
-                0x200002e0                outwork_fn
- .bss.usTicks   0x200002e4        0x4 obj\release\src\io_routines.o
+                0x200002b8        0x4 obj\release\src\filter_noise_reduction.o
+                0x200002b8                outwork_fn
+ .bss.usTicks   0x200002bc        0x4 obj\release\src\io_routines.o
  .bss.sel_filter_0
-                0x200002e8        0x2 obj\release\src\main.o
-                0x200002e8                sel_filter_0
+                0x200002c0        0x2 obj\release\src\main.o
+                0x200002c0                sel_filter_0
  .bss.sel_filter_1
-                0x200002ea        0x2 obj\release\src\main.o
-                0x200002ea                sel_filter_1
+                0x200002c2        0x2 obj\release\src\main.o
+                0x200002c2                sel_filter_1
  .bss.sel_filter_2
-                0x200002ec        0x2 obj\release\src\main.o
-                0x200002ec                sel_filter_2
+                0x200002c4        0x2 obj\release\src\main.o
+                0x200002c4                sel_filter_2
  .bss.sel_filter_3
-                0x200002ee        0x2 obj\release\src\main.o
-                0x200002ee                sel_filter_3
+                0x200002c6        0x2 obj\release\src\main.o
+                0x200002c6                sel_filter_3
  .bss.FILTER0_STATUS
-                0x200002f0        0x2 obj\release\src\main.o
-                0x200002f0                FILTER0_STATUS
+                0x200002c8        0x2 obj\release\src\main.o
+                0x200002c8                FILTER0_STATUS
  .bss.FILTER1_STATUS
-                0x200002f2        0x2 obj\release\src\main.o
-                0x200002f2                FILTER1_STATUS
+                0x200002ca        0x2 obj\release\src\main.o
+                0x200002ca                FILTER1_STATUS
  .bss.FILTER2_STATUS
-                0x200002f4        0x2 obj\release\src\main.o
-                0x200002f4                FILTER2_STATUS
+                0x200002cc        0x2 obj\release\src\main.o
+                0x200002cc                FILTER2_STATUS
  .bss.FILTER3_STATUS
-                0x200002f6        0x2 obj\release\src\main.o
-                0x200002f6                FILTER3_STATUS
+                0x200002ce        0x2 obj\release\src\main.o
+                0x200002ce                FILTER3_STATUS
  .bss.adcValueF
-                0x200002f8        0x4 obj\release\src\main.o
-                0x200002f8                adcValueF
- .bss.adcValue  0x200002fc        0x2 obj\release\src\main.o
-                0x200002fc                adcValue
- .bss.BYPASS    0x200002fe        0x2 obj\release\src\main.o
-                0x200002fe                BYPASS
+                0x200002d0        0x4 obj\release\src\main.o
+                0x200002d0                adcValueF
+ .bss.adcValue  0x200002d4        0x2 obj\release\src\main.o
+                0x200002d4                adcValue
+ .bss.BYPASS    0x200002d6        0x2 obj\release\src\main.o
+                0x200002d6                BYPASS
  *(COMMON)
- COMMON         0x20000300        0xc obj\release\src\filter_cmsis.o
-                0x20000300                S
- COMMON         0x2000030c        0xc obj\release\src\filter_cmsis2.o
-                0x2000030c                S_2
- COMMON         0x20000318        0xc obj\release\src\filter_cmsis_cw_nar.o
-                0x20000318                S1
- COMMON         0x20000324        0xc obj\release\src\filter_cmsis_cw_nar2.o
-                0x20000324                S2
-                0x20000330                __bss_end__ = .
+ COMMON         0x200002d8        0xc obj\release\src\filter_cmsis.o
+                0x200002d8                S
+ COMMON         0x200002e4        0xc obj\release\src\filter_cmsis2.o
+                0x200002e4                S_2
+ COMMON         0x200002f0        0xc obj\release\src\filter_cmsis_cw_nar.o
+                0x200002f0                S1
+ COMMON         0x200002fc        0xc obj\release\src\filter_cmsis_cw_nar2.o
+                0x200002fc                S2
+                0x20000308                __bss_end__ = .
 
-.heap           0x20000330        0x0
-                0x20000330                __end__ = .
-                0x20000330                end = __end__
+.heap           0x20000308        0x0
+                0x20000308                __end__ = .
+                0x20000308                end = __end__
  *(.heap*)
- .heap          0x20000330        0x0 obj\release\src\startup_stm32f10x_md.o
-                0x20000330                __HeapLimit = .
+ .heap          0x20000308        0x0 obj\release\src\startup_stm32f10x_md.o
+                0x20000308                __HeapLimit = .
 
-.stack_dummy    0x20000330      0x100
+.stack_dummy    0x20000308      0x100
  *(.stack)
- .stack         0x20000330      0x100 obj\release\src\startup_stm32f10x_md.o
+ .stack         0x20000308      0x100 obj\release\src\startup_stm32f10x_md.o
                 0x20005000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20004f00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20005000                PROVIDE (__stack, __StackTop)
@@ -1883,58 +1883,58 @@ OUTPUT(bin\Release\RadioDSP_Fast.elf elf32-littlearm)
                                  0x71 (size before relaxing)
  .comment       0x000000de       0x71 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
-.debug_info     0x00000000     0x7586
+.debug_info     0x00000000     0x74bc
  .debug_info    0x00000000      0x560 obj\release\spl\src\misc.o
  .debug_info    0x00000560      0xc2b obj\release\spl\src\stm32f10x_adc.o
  .debug_info    0x0000118b      0x891 obj\release\spl\src\stm32f10x_gpio.o
  .debug_info    0x00001a1c      0x946 obj\release\spl\src\stm32f10x_rcc.o
  .debug_info    0x00002362     0x234c obj\release\spl\src\stm32f10x_tim.o
- .debug_info    0x000046ae      0x275 obj\release\src\filter_cmsis.o
- .debug_info    0x00004923      0x277 obj\release\src\filter_cmsis2.o
- .debug_info    0x00004b9a      0x26c obj\release\src\filter_cmsis_cw_nar.o
- .debug_info    0x00004e06      0x26c obj\release\src\filter_cmsis_cw_nar2.o
- .debug_info    0x00005072      0x1a2 obj\release\src\filter_noise_reduction.o
- .debug_info    0x00005214     0x111b obj\release\src\io_routines.o
- .debug_info    0x0000632f      0x801 obj\release\src\main.o
- .debug_info    0x00006b30       0x59 obj\release\src\startup_stm32f10x_md.o
- .debug_info    0x00006b89      0x4c8 obj\release\src\system_stm32f10x.o
- .debug_info    0x00007051      0x1b1 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
- .debug_info    0x00007202      0x384 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
+ .debug_info    0x000046ae      0x23d obj\release\src\filter_cmsis.o
+ .debug_info    0x000048eb      0x23f obj\release\src\filter_cmsis2.o
+ .debug_info    0x00004b2a      0x23f obj\release\src\filter_cmsis_cw_nar.o
+ .debug_info    0x00004d69      0x23f obj\release\src\filter_cmsis_cw_nar2.o
+ .debug_info    0x00004fa8      0x1a2 obj\release\src\filter_noise_reduction.o
+ .debug_info    0x0000514a     0x111b obj\release\src\io_routines.o
+ .debug_info    0x00006265      0x801 obj\release\src\main.o
+ .debug_info    0x00006a66       0x59 obj\release\src\startup_stm32f10x_md.o
+ .debug_info    0x00006abf      0x4c8 obj\release\src\system_stm32f10x.o
+ .debug_info    0x00006f87      0x1b1 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
+ .debug_info    0x00007138      0x384 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
-.debug_abbrev   0x00000000     0x1853
+.debug_abbrev   0x00000000     0x17c1
  .debug_abbrev  0x00000000      0x158 obj\release\spl\src\misc.o
  .debug_abbrev  0x00000158      0x1e8 obj\release\spl\src\stm32f10x_adc.o
  .debug_abbrev  0x00000340      0x202 obj\release\spl\src\stm32f10x_gpio.o
  .debug_abbrev  0x00000542      0x270 obj\release\spl\src\stm32f10x_rcc.o
  .debug_abbrev  0x000007b2      0x2c4 obj\release\spl\src\stm32f10x_tim.o
- .debug_abbrev  0x00000a76      0x161 obj\release\src\filter_cmsis.o
- .debug_abbrev  0x00000bd7      0x161 obj\release\src\filter_cmsis2.o
- .debug_abbrev  0x00000d38      0x154 obj\release\src\filter_cmsis_cw_nar.o
- .debug_abbrev  0x00000e8c      0x154 obj\release\src\filter_cmsis_cw_nar2.o
- .debug_abbrev  0x00000fe0       0xf3 obj\release\src\filter_noise_reduction.o
- .debug_abbrev  0x000010d3      0x2ff obj\release\src\io_routines.o
- .debug_abbrev  0x000013d2      0x14d obj\release\src\main.o
- .debug_abbrev  0x0000151f       0x14 obj\release\src\startup_stm32f10x_md.o
- .debug_abbrev  0x00001533      0x170 obj\release\src\system_stm32f10x.o
- .debug_abbrev  0x000016a3       0xe8 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
- .debug_abbrev  0x0000178b       0xc8 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
+ .debug_abbrev  0x00000a76      0x136 obj\release\src\filter_cmsis.o
+ .debug_abbrev  0x00000bac      0x136 obj\release\src\filter_cmsis2.o
+ .debug_abbrev  0x00000ce2      0x136 obj\release\src\filter_cmsis_cw_nar.o
+ .debug_abbrev  0x00000e18      0x136 obj\release\src\filter_cmsis_cw_nar2.o
+ .debug_abbrev  0x00000f4e       0xf3 obj\release\src\filter_noise_reduction.o
+ .debug_abbrev  0x00001041      0x2ff obj\release\src\io_routines.o
+ .debug_abbrev  0x00001340      0x14d obj\release\src\main.o
+ .debug_abbrev  0x0000148d       0x14 obj\release\src\startup_stm32f10x_md.o
+ .debug_abbrev  0x000014a1      0x170 obj\release\src\system_stm32f10x.o
+ .debug_abbrev  0x00001611       0xe8 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
+ .debug_abbrev  0x000016f9       0xc8 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
-.debug_loc      0x00000000     0x52a7
+.debug_loc      0x00000000     0x510b
  .debug_loc     0x00000000      0x193 obj\release\spl\src\misc.o
  .debug_loc     0x00000193      0x9cd obj\release\spl\src\stm32f10x_adc.o
  .debug_loc     0x00000b60      0x569 obj\release\spl\src\stm32f10x_gpio.o
  .debug_loc     0x000010c9      0x726 obj\release\spl\src\stm32f10x_rcc.o
  .debug_loc     0x000017ef     0x1d7f obj\release\spl\src\stm32f10x_tim.o
- .debug_loc     0x0000356e       0x96 obj\release\src\filter_cmsis.o
- .debug_loc     0x00003604       0x96 obj\release\src\filter_cmsis2.o
- .debug_loc     0x0000369a       0x96 obj\release\src\filter_cmsis_cw_nar.o
- .debug_loc     0x00003730       0x96 obj\release\src\filter_cmsis_cw_nar2.o
- .debug_loc     0x000037c6      0x130 obj\release\src\filter_noise_reduction.o
- .debug_loc     0x000038f6       0xf6 obj\release\src\io_routines.o
- .debug_loc     0x000039ec       0xe9 obj\release\src\main.o
- .debug_loc     0x00003ad5       0xbc obj\release\src\system_stm32f10x.o
- .debug_loc     0x00003b91       0xb6 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
- .debug_loc     0x00003c47     0x1660 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
+ .debug_loc     0x0000356e       0x2f obj\release\src\filter_cmsis.o
+ .debug_loc     0x0000359d       0x2f obj\release\src\filter_cmsis2.o
+ .debug_loc     0x000035cc       0x2f obj\release\src\filter_cmsis_cw_nar.o
+ .debug_loc     0x000035fb       0x2f obj\release\src\filter_cmsis_cw_nar2.o
+ .debug_loc     0x0000362a      0x130 obj\release\src\filter_noise_reduction.o
+ .debug_loc     0x0000375a       0xf6 obj\release\src\io_routines.o
+ .debug_loc     0x00003850       0xe9 obj\release\src\main.o
+ .debug_loc     0x00003939       0xbc obj\release\src\system_stm32f10x.o
+ .debug_loc     0x000039f5       0xb6 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
+ .debug_loc     0x00003aab     0x1660 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
 .debug_aranges  0x00000000      0x800
  .debug_aranges
@@ -1987,7 +1987,7 @@ OUTPUT(bin\Release\RadioDSP_Fast.elf elf32-littlearm)
  .debug_ranges  0x00000868       0x10 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
  .debug_ranges  0x00000878       0x10 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
-.debug_line     0x00000000     0x309b
+.debug_line     0x00000000     0x309f
  .debug_line    0x00000000      0x1ae obj\release\spl\src\misc.o
  .debug_line    0x000001ae      0x4ac obj\release\spl\src\stm32f10x_adc.o
  .debug_line    0x0000065a      0x357 obj\release\spl\src\stm32f10x_gpio.o
@@ -1999,13 +1999,13 @@ OUTPUT(bin\Release\RadioDSP_Fast.elf elf32-littlearm)
  .debug_line    0x00001dfd      0x170 obj\release\src\filter_cmsis_cw_nar2.o
  .debug_line    0x00001f6d      0x165 obj\release\src\filter_noise_reduction.o
  .debug_line    0x000020d2      0x329 obj\release\src\io_routines.o
- .debug_line    0x000023fb      0x2d3 obj\release\src\main.o
- .debug_line    0x000026ce       0xa8 obj\release\src\startup_stm32f10x_md.o
- .debug_line    0x00002776      0x1b1 obj\release\src\system_stm32f10x.o
- .debug_line    0x00002927      0x14b ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
- .debug_line    0x00002a72      0x629 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
+ .debug_line    0x000023fb      0x2d7 obj\release\src\main.o
+ .debug_line    0x000026d2       0xa8 obj\release\src\startup_stm32f10x_md.o
+ .debug_line    0x0000277a      0x1b1 obj\release\src\system_stm32f10x.o
+ .debug_line    0x0000292b      0x14b ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
+ .debug_line    0x00002a76      0x629 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
 
-.debug_str      0x00000000     0x249c
+.debug_str      0x00000000     0x2495
  .debug_str     0x00000000      0x396 obj\release\spl\src\misc.o
                                 0x3ea (size before relaxing)
  .debug_str     0x00000396      0x54a obj\release\spl\src\stm32f10x_adc.o
@@ -2016,25 +2016,25 @@ OUTPUT(bin\Release\RadioDSP_Fast.elf elf32-littlearm)
                                 0x646 (size before relaxing)
  .debug_str     0x00001045      0xb69 obj\release\spl\src\stm32f10x_tim.o
                                 0xe1c (size before relaxing)
- .debug_str     0x00001bae       0xc6 obj\release\src\filter_cmsis.o
-                                0x26c (size before relaxing)
- .debug_str     0x00001c74       0x46 obj\release\src\filter_cmsis2.o
-                                0x271 (size before relaxing)
- .debug_str     0x00001cba       0x5d obj\release\src\filter_cmsis_cw_nar.o
-                                0x288 (size before relaxing)
- .debug_str     0x00001d17       0x60 obj\release\src\filter_cmsis_cw_nar2.o
-                                0x28b (size before relaxing)
- .debug_str     0x00001d77       0x68 obj\release\src\filter_noise_reduction.o
+ .debug_str     0x00001bae       0xb8 obj\release\src\filter_cmsis.o
+                                0x25e (size before relaxing)
+ .debug_str     0x00001c66       0x46 obj\release\src\filter_cmsis2.o
+                                0x263 (size before relaxing)
+ .debug_str     0x00001cac       0x5d obj\release\src\filter_cmsis_cw_nar.o
+                                0x281 (size before relaxing)
+ .debug_str     0x00001d09       0x60 obj\release\src\filter_cmsis_cw_nar2.o
+                                0x284 (size before relaxing)
+ .debug_str     0x00001d69       0x6f obj\release\src\filter_noise_reduction.o
                                 0x205 (size before relaxing)
- .debug_str     0x00001ddf      0x3b9 obj\release\src\io_routines.o
+ .debug_str     0x00001dd8      0x3b9 obj\release\src\io_routines.o
                                 0xc07 (size before relaxing)
- .debug_str     0x00002198      0x11c obj\release\src\main.o
+ .debug_str     0x00002191      0x11c obj\release\src\main.o
                                 0x59e (size before relaxing)
- .debug_str     0x000022b4       0x62 obj\release\src\system_stm32f10x.o
+ .debug_str     0x000022ad       0x62 obj\release\src\system_stm32f10x.o
                                 0x318 (size before relaxing)
- .debug_str     0x00002316      0x116 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
+ .debug_str     0x0000230f      0x116 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_init_f32.o)
                                 0x230 (size before relaxing)
- .debug_str     0x0000242c       0x70 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
+ .debug_str     0x00002425       0x70 ..\CMSIS-4.5.0\CMSIS-4.5.0\CMSIS\Lib\GCC\libarm_cortexM3l_math.a(arm_fir_f32.o)
                                 0x26b (size before relaxing)
 
 .debug_frame    0x00000000     0x12c4

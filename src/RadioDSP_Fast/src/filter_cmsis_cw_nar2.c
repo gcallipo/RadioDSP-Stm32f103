@@ -18,7 +18,7 @@
 /**********************************************************************
 /* Calculator used: https://www.arc.id.au/FilterDesign.html
 /*
-/* Design parameter: (Band Pass start 1000 end 5000 - 41 Taps - 40 db)
+/* Design parameter: (Band Pass start 1000 end 5000 - 41 Taps - 40 db - fs 35150 Hz)
 /* CW filter 41 TAP :
 /*  Real Measured bandwidth:   < 750 HZ center to 700 Hz
 /*
@@ -81,15 +81,11 @@ void init_firFilter2_cmsis_cw_nar(){
 
 float32_t firFilter2_cmsis_cw_nar(float32_t input)
 {
-	float32_t  *inputF32, *outputF32;
-    float32_t   out[1], in[1];
-	in[0] =  input;
+   float32_t inputF = input;
+    float32_t outF;
 
-	inputF32 = &in[0];
-	outputF32 = &out[0];
-
-	arm_fir_f32(&S2, inputF32, outputF32, BLOCK_SIZE2);
+	arm_fir_f32(&S2, &inputF, &outF, BLOCK_SIZE2);
 
 
-    return out[0] ;
+    return outF;
 }

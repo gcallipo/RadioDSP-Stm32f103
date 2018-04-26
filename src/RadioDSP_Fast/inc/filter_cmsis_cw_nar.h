@@ -24,7 +24,8 @@
 
 /** Define the tap number of fr filter */
 #define BLOCK_SIZE   		1
-#define NUM_TAPS_1   		61
+#define NUM_TAPS_1   		51
+
 
 /** Hold the coefficents  calculated */
 extern const float32_t firCoeffs32_cw_nar[NUM_TAPS_1];

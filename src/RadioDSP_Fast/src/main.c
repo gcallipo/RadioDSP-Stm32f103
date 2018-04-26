@@ -195,16 +195,19 @@ int main(void)
 		// CW NARROW work alone
 		if (FILTER0_STATUS==1)
 		{
+            adcValueF = firFilter2_cmsis(adcValueF);
 		    adcValueF = firFilter2_cmsis_cw_nar(adcValueF);
-		    adcValueF = firFilter1_cmsis(adcValueF);
+            //adcValueF = firFilter1_cmsis(adcValueF);
+
 		}
 
         // Noise reduction can work with SSB or alone
 	    if (FILTER1_STATUS==1)
 		{
 		    // Variable noise Reduction
-			adcValueF = firFilter1_cmsis_cw_nar(adcValueF);
 		    adcValueF = firFilter2_cmsis(adcValueF);
+			adcValueF = firFilter1_cmsis_cw_nar(adcValueF);
+
 		}
 
 		// SSB work alone or woth Noise reduction

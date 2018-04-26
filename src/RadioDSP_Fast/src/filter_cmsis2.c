@@ -16,7 +16,7 @@
 
 /************************************************************
 /*  Calculator used: https://www.arc.id.au/FilterDesign.html
-/*  Design parameters: (Low Pass end 5500 - 9 Taps - 40 db)
+/*  Design parameters: (Low Pass end 5500 - 9 Taps - 40 db - fs 35150 Hz)
 /*
 /*  Real Measured bandwidth: 0 - <3500 Hz
 /* NOTE the real measured features are more stringent than calculated
@@ -48,15 +48,11 @@ void init_firFilter2_cmsis(){
 
 float32_t firFilter2_cmsis(float32_t input)
 {
-	uint16_t result;
-	float32_t  *inputF32, *outputF32;
-    float32_t   out[1], in[1];
-	in[0] = input;
 
-	inputF32 = &in[0];
-	outputF32 = &out[0];
+    float32_t inputF = input;
+    float32_t outF;
 
-	arm_fir_f32(&S_2, inputF32, outputF32, BLOCK_SIZE_F2);
+	arm_fir_f32(&S_2, &inputF, &outF, BLOCK_SIZE_F2);
 
-    return out[0];
+    return outF;
 }
