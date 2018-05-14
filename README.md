@@ -28,6 +28,12 @@
   where are describing a simple external components board needed to build the DSP filter.
   The pre-compiled firmware are committed in folder pre-compiled.
   You can find some videos with RadioDSP running, doing google search: **ik8yfw dsp** 
+  
+  A compact eclosure was designed and shared on Thingiverse at this url: 
+  
+      https://www.thingiverse.com/thing:2911762
+      
+  You can print it with a 3d Printer.
    
    The RadioDSP use some parts of the ARM Cortex Microcontroller Software
    Interface Standard (CMSIS).
