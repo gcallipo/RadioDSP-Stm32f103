@@ -12,7 +12,7 @@
    The functions built in the RadioDSP are:
    
     * Filter BPF CW  NARROW (300 HZ)
-    * Filter BPF CW  NARROW (700 Hz)
+    * Filter BPF CW  NARROW (600 Hz)
     * Filter LPF SSB ( < 2400 Hz )
     * Filter LPF SSB ( < 3500 Hz )
     * Noise Reduction (Exponential Moving Average   - 3 levels smoothing)
