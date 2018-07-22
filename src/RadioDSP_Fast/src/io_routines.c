@@ -127,7 +127,6 @@ uint16_t ADC_Read()
  *                   IO BUTTON AND LED SETUP
  *
  ********************************************************************/
-
 void GPIO_Setup()
 {
 	GPIO_InitTypeDef GPIO_InitStruct;

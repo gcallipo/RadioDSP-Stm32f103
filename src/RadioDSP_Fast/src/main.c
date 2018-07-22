@@ -79,9 +79,9 @@ volatile uint16_t sel_filter_3 = 0;
 
 void blinkDiode(){
 		GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-		DelayMs(80);
+		DelayMs(30);
 		GPIO_SetBits(GPIOC, GPIO_Pin_13);
-		DelayMs(80);
+		DelayMs(30);
 }
 
 void decodeFilterStatus (){
@@ -140,25 +140,9 @@ void decodeFilterStatus (){
 }
 
 
-int main(void)
-{
- 	// Initialize delay function
-	DelayInit();
+void chekUserActions(){
 
-	// Initialize ADC, PWM, and GPIO
-	ADC_Setup();
-	PWM_Setup();
-	GPIO_Setup();
-
-	init_firFilter1_cmsis();
-    init_firFilter2_cmsis();
-	init_firFilter1_cmsis_cw_nar();
-	init_firFilter2_cmsis_cw_nar();
-
-
-	while (1)
-	{
-		// Read input switch (active low)
+    // Read input switch (active low)
         sel_filter_0 = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_12);
         sel_filter_1 = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_13);
         sel_filter_2 = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_14);
@@ -178,8 +162,30 @@ int main(void)
 			GPIO_SetBits(GPIOC, GPIO_Pin_13);
 		}
 
+}
+
+int main(void)
+{
+ 	// Initialize delay function
+	DelayInit();
+
+	// Initialize ADC, PWM, and GPIO
+	ADC_Setup();
+	PWM_Setup();
+	GPIO_Setup();
+
+	init_firFilter1_cmsis();
+    init_firFilter2_cmsis();
+	init_firFilter1_cmsis_cw_nar();
+	init_firFilter2_cmsis_cw_nar();
+
+
+	while (1)
+	{
+		chekUserActions();
+
         // Hihh delay for debounce
-		DelayMs(50);
+		DelayMs(10);
 	}
 }
 
@@ -188,6 +194,7 @@ int main(void)
 	// Checks whether the TIM3 interrupt has occurred or not
 	if (TIM_GetITStatus(TIM3, TIM_IT_Update))
 	{
+
 		// Read ADC value downsize to 10 bit (10-bit PWM)
 		adcValue = ADC_Read() >> 2;
 		adcValueF = inputConvert(adcValue);
